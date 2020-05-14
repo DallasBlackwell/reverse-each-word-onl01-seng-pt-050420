@@ -4,6 +4,5 @@ def reverse_each_word(sentence)
   array.each do |word|
     empty_array << word.reverse
   end
+  return empty_array
 end
-
-rather than the collected link_to_functio
