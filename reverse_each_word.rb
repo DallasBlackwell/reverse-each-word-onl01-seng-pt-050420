@@ -4,7 +4,6 @@ def reverse_each_word(sentence)
   array.each do |word|
     empty_array << word.reverse
   end
-  return empty_array
+  return empty_array.join
 end
 
-it reversed it, but it's holding the...array instead of string.
